@@ -24,33 +24,3 @@ public class Exceptions1 {
 }
 
 
-
-
-
-
-/*
-public class Main {
-    public static void main(String[] args) {
-        int number = 9;
-        int min = 0;
-        int max = 10;
-        try {
-            boolean result = checkIfItsInRange(number, min, max);
-            System.out.println("number " + number + " is in range of " + min + " and " + max + " : " + result);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
-    }
-    public static boolean checkIfItsInRange (int num,int min,int max)throws Exception{
-        if (min >= num || num <= max){
-            return true;
-        }else {
-            throw new Exception("this number is not in range");
-
-        }
-    }
-}
-
- */
-
-
